@@ -1,7 +1,7 @@
 from PIL import Image
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import torch
-
+#Load Blip
 class BLIPCaptioner:
     def __init__(self, model_id="Salesforce/blip-image-captioning-base"):
         self.processor = BlipProcessor.from_pretrained(model_id, use_fast=True)
