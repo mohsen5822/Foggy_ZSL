@@ -1,0 +1,13 @@
+# Data
+data/
+models/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
