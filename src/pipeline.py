@@ -12,7 +12,7 @@ def main():
                            
     captioner = BLIPCaptioner()
     
-    # Load image
+    # Load image and change it to RGB
     image_path = "data/foggy1.png"
     image_bgr = cv2.imread(image_path)
     image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)
