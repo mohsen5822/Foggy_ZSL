@@ -4,4 +4,4 @@ transformers>=4.30.0
 opencv-python>=4.7.0
 matplotlib>=3.7.0
 ultralytics>=8.0.0
-# Add any other dependencies for yolo_world_onnx
+
