@@ -5,7 +5,7 @@ class YOLODetector:
     def __init__(self, model_path, class_prompts, device="cpu"):
         self.model = YOLOWORLD(model_path, device=device)
         self.set_classes(class_prompts)
-        
+    #class prompt    
     def set_classes(self, class_prompts):
         self.model.set_classes(class_prompts)
         
